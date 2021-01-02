@@ -3,8 +3,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-style: italic;
+ 
 }
-
+.wrapper{
+  background-color: #E2FDFF;
+ 
+}
 .counterButton {
   background: #fff;
   border-radius: 8px;
@@ -13,10 +18,41 @@ body {
   padding-left: 2rem;
   margin: 0.5rem 0.25rem;
   border: 1.5px solid black;
+
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h1{text-align: center;
+}
+.wrapper{
+border-style: solid;
+}
+.input{
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+p{text-align: center;
+font-weight: bold;}
+
+#submitButton{
+  margin:10px ;
+  width: 90px;
+  border-radius: 20px;
+ 
+  
+}
+.directions{text-align: center; height: 40px;
+padding: 15px;}
+#final_grade{text-align: center;height: 40px;
+  padding: 15px;font-weight:bold;}
+#total_grades{text-align: center;
+  font-weight: bold;
+  height: 40px;
+  padding: 15px;
 }

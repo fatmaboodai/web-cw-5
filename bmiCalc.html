@@ -13,7 +13,7 @@
         قم بإدخال طولك بالأمتار
       </h2>
       <div class="center">
-        <input
+        <input 
           dir="rtl"
           type="text"
           placeholder="طولك بال m"
@@ -22,7 +22,7 @@
         />
       </div>
       <div class="center">
-        <input
+        <input 
           dir="rtl"
           type="text"
           placeholder="وزنك بال kg"
@@ -62,7 +62,23 @@
               يا للهول! 😲          أكبر من أو يساوي 30
               لا أدري! 🤷🏻‍♀️                   أي شي ثاني
         */
+        let h = document.getElementById("height").value
+      let w = document.getElementById("weight").value
+      let BMI= w/(h*h)
+      console.log(BMI)
+      if(BMI<20){
+        document.getElementById("status").innerText="انت نحيف للغايه"
       }
+      else if(BMI>=20 && BMI<=29)
+      {document.getElementById("status").innerText="وزنك جيد"}
+      else if(BMI>=30)
+      {document.getElementById("status").innerText="يا للهول !"}
+      else
+      {document.getElementById("status").innerText="لا ادري"}
+      
+      }
+     
+     
     </script>
   </body>
 </html>
